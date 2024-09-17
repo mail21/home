@@ -8,11 +8,11 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
+import Projects from "./components/home/Projects";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
@@ -42,19 +42,8 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
-      {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )}
+      {experiences.show && <Experience experiences={experiences} />}
+      {repos.show && <Projects />}
       {leadership.show && (
         <Leadership
           heading={leadership.heading}
@@ -70,7 +59,6 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
     </>
   );
 });
@@ -79,7 +67,7 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    <BrowserRouter basename={"/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" exact element={<Home ref={titleRef} />} />

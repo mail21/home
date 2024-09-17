@@ -31,8 +31,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     }
   }, [link]);
 
-
-
   return (
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
@@ -40,6 +38,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           {showPic && (
             <img
               className="border border-secondary rounded-circle"
+              style={{ objectFit: "cover" }}
               src={profilePicUrl}
               alt="profilepicture"
               width={imgSize}
@@ -60,7 +59,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 role="button"
                 aria-label="Resume/CV"
               >
-                Resume
+                My Resume :)
               </a>
             </p>
           )}
