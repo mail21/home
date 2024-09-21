@@ -14,7 +14,7 @@ const Projects = () => {
       title: "Limelight Website Design",
       startDate: "2024",
       description:
-        "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "Design website admin dan landing untuk sebuah studio hip hop dance dengan kapabilitas reservasi dan class purcashing",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/limelight-design/img-1.png`,
         `${process.env.PUBLIC_URL}/images/projects/limelight-design/img-2.png`,
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "Gaia Studio Dashboard",
       startDate: "2024",
       description:
-        "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "Aplikasi website admin pilates untuk memonitor dan melakukan penginputan data reservasi, adapun sistem calendar untuk membuat jadwal untuk member pilates",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/gaiastudio-dashboard/img-1.png`,
         `${process.env.PUBLIC_URL}/images/projects/gaiastudio-dashboard/img-2.png`,
@@ -71,7 +71,7 @@ const Projects = () => {
       title: "Gaia Studio",
       startDate: "2024",
       description:
-        "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "Aplikasi Website pilates yang digunakan untuk menyediakan informasi reservasi dan melakukan reservasi itu sendiri, terintegrasi payment gateaway menggunakan aplikasi midtrans",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/gaiastudio/img-2.png`,
         `${process.env.PUBLIC_URL}/images/projects/gaiastudio/img-1.png`,
@@ -104,7 +104,7 @@ const Projects = () => {
       title: "E-Learning Cipta App",
       startDate: "2024",
       description:
-        "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "Aplikasi E-learning untuk yang digunakan oleh anak anak Sekolah Menengah untuk meningkatkan kemampuan mereka dengan sistem grading dan chat antar kelas atau sekolah dan pengerjaan soal juga bisa dilakukan di aplikasi ini",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/cipta-mobile/img-1.png`,
         `${process.env.PUBLIC_URL}/images/projects/cipta-mobile/img-2.png`,
@@ -131,7 +131,7 @@ const Projects = () => {
       title: "E-Learning Cipta Admin Site",
       startDate: "2024",
       description:
-        "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "Sistem admin dashboard untuk aplikasi mobile e-learning, pada sistem ini dilakukan penginputan soal dan file asset yang nanti akan di consume oleh app",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/cipta-web/img-1.png`,
         `${process.env.PUBLIC_URL}/images/projects/cipta-web/img-2.png`,
@@ -155,7 +155,7 @@ const Projects = () => {
       title: "Seminar Unpam",
       startDate: "2015",
       description:
-        "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "One of the first apps I was working on when im on college. Sebuah Sistem yang digunakan untuk menyediakan informasi seminar/event yang ada pada universitas pamulang kepada dosen dan mahasiswa, adapun sistem absensi, dan pencetakan tiket/sertifikat event.",
       images: [
         `${process.env.PUBLIC_URL}/images/projects/seminar-unpam/img-1.png`,
         `${process.env.PUBLIC_URL}/images/projects/seminar-unpam/img-2.png`,
