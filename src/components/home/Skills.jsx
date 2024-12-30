@@ -28,6 +28,8 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
     "PHP",
     "Flutter",
     "Dart",
+    "Go",
+    "Docker",
   ];
 
   const skillsTabRef = React.useRef(null);
