@@ -36,7 +36,7 @@ const Projects = () => {
     },
     {
       title: "Gaia Studio Dashboard",
-      startDate: "2024",
+      startDate: "2022",
       description:
         "Aplikasi website admin pilates untuk memonitor dan melakukan penginputan data reservasi, adapun sistem calendar untuk membuat jadwal untuk member pilates",
       images: [
@@ -57,19 +57,23 @@ const Projects = () => {
           class: "devicon-angularjs-plain",
           name: "Javascript",
         },
+        // {
+        //   class: "devicon-typescript-plain",
+        //   name: "Laravel",
+        // },
+        // {
+        //   class: "devicon-typescript-plain",
+        //   name: "PHP",
+        // },
         {
           class: "devicon-typescript-plain",
-          name: "Laravel",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "PHP",
+          name: "GO",
         },
       ],
     },
     {
       title: "Gaia Studio",
-      startDate: "2024",
+      startDate: "2022",
       description:
         "Aplikasi Website pilates yang digunakan untuk menyediakan informasi reservasi dan melakukan reservasi itu sendiri, terintegrasi payment gateaway menggunakan aplikasi midtrans",
       images: [
@@ -90,19 +94,23 @@ const Projects = () => {
           class: "devicon-angularjs-plain",
           name: "Javascript",
         },
+        // {
+        //   class: "devicon-typescript-plain",
+        //   name: "Laravel",
+        // },
+        // {
+        //   class: "devicon-typescript-plain",
+        //   name: "PHP",
+        // },
         {
           class: "devicon-typescript-plain",
-          name: "Laravel",
-        },
-        {
-          class: "devicon-typescript-plain",
-          name: "PHP",
+          name: "GO",
         },
       ],
     },
     {
       title: "E-Learning Cipta App",
-      startDate: "2024",
+      startDate: "2022",
       description:
         "Aplikasi E-learning untuk yang digunakan oleh anak anak Sekolah Menengah untuk meningkatkan kemampuan mereka dengan sistem grading dan chat antar kelas atau sekolah dan pengerjaan soal juga bisa dilakukan di aplikasi ini",
       images: [
@@ -129,7 +137,7 @@ const Projects = () => {
     },
     {
       title: "E-Learning Cipta Admin Site",
-      startDate: "2024",
+      startDate: "2022",
       description:
         "Sistem admin dashboard untuk aplikasi mobile e-learning, pada sistem ini dilakukan penginputan soal dan file asset yang nanti akan di consume oleh app",
       images: [
@@ -153,7 +161,7 @@ const Projects = () => {
     },
     {
       title: "Seminar Unpam",
-      startDate: "2015",
+      startDate: "2021",
       description:
         "One of the first apps I was working on when im on college. Sebuah Sistem yang digunakan untuk menyediakan informasi seminar/event yang ada pada universitas pamulang kepada dosen dan mahasiswa, adapun sistem absensi, dan pencetakan tiket/sertifikat event.",
       images: [
